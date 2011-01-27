@@ -1,0 +1,18 @@
+* WTF is this?
+	Brainfuck 9p file server
+* How to USE
+	1. compile
+		% mk install
+	2. run
+		% bf
+	3. mount
+		% mkdir /mnt/bf
+		% mount /srv/bf /mnt/bf
+	4. send brainfuck command
+		% cd /mnt/bf
+		% echo '+++++++++[>++++++++>+++++++++++>+++++<<<-]>.>++.+++++++..+++.>-.------------.<++++++++.--------.+++.------.--------.>+.' > cmd
+	5. get result
+		% cat data 
+	
+	That's it
+
